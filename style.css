@@ -10,15 +10,93 @@
   #main1{
     height: 100vh;
     width: 100vw;
+    background-color: cyan;
+  }
+  #pic{
+    height: 100vh;
+    width: 100vw;
     background-image: url(wheal.jpg);
     background-image: cover;
     background-position: center;
+    padding-top: 1px;
+    background-color: cyan;
   }
   #nap{
-    height: 12vh;
+    height: 10vh;
     width: 100vw;
     background-color: rgba(2, 61, 93, 0.668);
     position: fixed;
     display: flex;
   }
+  #logo{
+    height: 5vh;
+    width: 9vh;
+    margin-left: 5vh;
+    margin-top: 1vh;
+  }
+  #aquarium h3{
+    margin-left: 1vh;
+    margin-top: 4vh;
+    color: aliceblue;
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+ #head{
+  height: 10vh;
+  width: auto;
+  margin-left: 18vh;
+  display: flex;
+  justify-content: space-between;
+ }
+ .hi h3{
+   margin-top: 4vh;
+   color: aliceblue;
+   height: auto;
+   width: auto;
+   margin-left: 6vh;
+ }
+  .ul{
+    height: 2px;
+    width: 0vh;
+    background-color: red;
+    margin-left: 6vh;
+    transition: width 0.3s;
+ }
+ .hi:hover .ul{
+ width:50%;
+ }
+ .hi:hover #uly{
+  width:73%;
+ }
+ .hi:hover #ul1{
+  width:64%;
+ }
+ .hi:hover #ul4{
+  width:73%;
+ }
+ .hi:hover #ul5{
+  width:67%;
+ }
+ .hi:hover #ul7{
+  width:67%;
+ }
+ #mac{
+  height: 5vh;
+  width: 20vh;
+  background-color: red;
+  margin-top: 17vh;
+  margin-left: 8vh;
+  color: aliceblue;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+ }
+
+
+ 
+
+
+
+
  
