@@ -11,6 +11,7 @@
     height: 100vh;
     width: 100vw;
     background-color: cyan;
+    overflow: hidden;
   }
   #pic{
     height: 100vh;
@@ -94,8 +95,7 @@
  #mom{
   height: 50vh;
   width: 99.9vw;
-  /* background-color: red; */
-  display: flex;
+  /* display: flex; */
  }
  #mom_div1{
   height: 50vh;
@@ -127,15 +127,19 @@
  }
  #cm button{
    background-color: #0799fd;
-   margin-left: 17vh;
+   margin-left: 14vh;
    width: 20vh;
    height: 6vh;
   font-weight: 1000;
   color: aliceblue;
+  transition: box-shadow 0.8s ease-in-out;
+ }
+ #cm button:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
  }
  #mom_div2{
-  height: 100vh;
-  width: 113vh;
+  height: 90vh;
+  width: 100vh;
   background-color: transparent;
   position: absolute;
   left: 70vh;
@@ -145,7 +149,82 @@
   bottom: 0.5vh;
   z-index: 0;
  }
- 
+#mom_div3{
+  height: 25vh;
+  width: 12vh;
+  position: absolute;
+  left: 172vh;
+  bottom: 34vh;
+}
+.socialmedia i{
+  height: 3vh;
+  width: 5vh;
+  justify-content: space-between;
+  font-size: 4vh;
+  margin-left: 3vh;
+  transition: font-size 0.5s,color 0.7s,transform 0.5s  ease-in-out;
+}
+#facebook:hover{
+  font-size: 5vh;
+color: skyblue;
+transform:translateY(3px);
+}
+#instagram:hover{
+  font-size: 5vh;
+color:plum;
+transform:translateY(3px);
+}
+#x:hover{
+  font-size: 5vh;
+color:black;
+transform:translateY(3px);
+}
+ #mom_div4{
+  height: auto;
+  width: auto;
+ font-size: 26vh;
+ font-weight: bolder;
+ letter-spacing: 10vh;
+ }
+ #mom_div4 h1{
+  margin-left: 3vh;
+ background-image:linear-gradient(-180deg,#079bfd,#079bfd00); 
+  -webkit-background-clip: text;
+ color: transparent;
+ }
+ #play{
+ position: absolute;
+ bottom: 15vh;
+ font-size: 12vh;
+ color: aliceblue;
+ left: 69vh;
+ }
+ #line1{
+  height: 12vh;
+  width: 2px;
+  background-color: aliceblue;
+  position: absolute;
+  bottom: 8vh;
+  left: 79.3vh;
+  rotate: -45deg;
+ }
+ #line2{
+  height: 2px;
+  width: 35vh;
+  background-color: aliceblue;
+  position: absolute;
+  bottom: 9.5vh;
+  left: 83.7vh;
+  rotate: 360deg;
+ }
+ #li p{
+  color: aliceblue;
+  position: absolute;
+  bottom: 10vh;
+  left: 83.7vh;
+  
+ }
+
 
 
 
