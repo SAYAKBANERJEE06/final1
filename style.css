@@ -10,8 +10,6 @@
   #main1{
     height: 100vh;
     width: 100vw;
-    background-color: cyan;
-    overflow: hidden;
   }
   #pic{
     height: 100vh;
@@ -20,7 +18,6 @@
     background-image: cover;
     background-position: center;
     padding-top: 1px;
-    background-color: cyan;
   }
   #nap{
     height: 10vh;
@@ -182,7 +179,7 @@ transform:translateY(3px);
  #mom_div4{
   height: auto;
   width: auto;
- font-size: 26vh;
+ font-size: 24vh;
  font-weight: bolder;
  letter-spacing: 10vh;
  }
@@ -222,9 +219,33 @@ transform:translateY(3px);
   position: absolute;
   bottom: 10vh;
   left: 83.7vh;
-  
  }
-
+ #main2{
+  width: 100%;
+   height: 100vh;
+ }
+ #main3{
+  height: 100vh;
+    width: 100vw;
+  }
+  #pic1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(photos/tqnkHf.jpg);
+    background-image: cover;
+    background-position: center;
+  }
+   #lekha h1{
+    height: auto;
+  width: 98.7vw;
+ font-size: 24vh;
+ font-weight: bolder;
+ letter-spacing: 9vh;
+ margin-left: 3vh;
+ background-image:linear-gradient(-180deg,#079bfd,#079bfd00); 
+  -webkit-background-clip: text;
+ color: transparent;
+  } 
 
 
 
