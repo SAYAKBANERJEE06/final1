@@ -227,7 +227,7 @@ transform:translateY(3px);
   color: aliceblue;
   position: absolute;
   bottom: 10vh;
-  left: 83.7vh;
+  left: 94.7vh;
  }
  #main3{
   height: 100vh;
@@ -251,6 +251,139 @@ transform:translateY(3px);
   -webkit-background-clip: text;
  color: transparent;
   } 
+#jellyfish{
+  height: 40vh;
+  width: 42vh;
+  position: absolute;
+  left: 120vh;
+  bottom: -139vh;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+#head1{
+  font-size: 6vh;
+ font-weight: bolder;
+ color: aliceblue;
+ position: absolute;
+ left: 80vh;
+ bottom: -125vh;
+}
+#lekha1{
+  font-size: 2vh;
+  font-weight: bolder;
+  color: aliceblue;
+  position: absolute;
+  left: 75vh;
+  bottom: -25vh;
+}
+#context{
+  height: 21vh;
+  width: 45vh;
+  margin-left: 75vh;
+  margin-top: -9vh;
+  font-weight: 500;
+  color: aliceblue;
+}
+#photo{
+  height: 65vh;
+  width: 55vh;
+  position: absolute;
+  left: 15vh;
+  bottom: -190vh;
+  transition: transform 0.8s ease-in-out;
+}
+#photo img{
+  height: 65vh;
+  width: 55vh;
+  background-size: cover;
+  background-position: center;
+}
+#photo:hover{
+  transform:translateY(-10px);
+}
+#photos{
+  height: 25vh;
+  width: 110vh;
+  position: absolute;
+  left: 65vh;
+  top: 263vh;
+  display: flex;
+  justify-content: space-between;
+}
+.piku{
+  height: 25vh;
+  width: 25vh;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.8s,box-shadow 0.8s ease-in-out;
+}
+.piku:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#photos_div1 img{
+  height: 25vh;
+  width: 35vh;
+}
+#photos_div1:hover{
+  transform: translateX(10px);
+}
+#photos_div2 img{
+  height: 25vh;
+  width: 35vh;
+}
+#photos_div2:hover{
+  transform: translateY(-10px);
+}
+#photos_div3 img{
+  height: 25vh;
+  width: 35vh;
+}
+#photos_div3:hover{
+  transform: translateX(-10px);
+}
+#but button{
+  background-color:#0799fd ;
+  width: 20vh;
+  height: 6vh;
+ font-weight: 1000;
+ color: aliceblue;
+  align-items: center;
+  position: absolute;
+  left: 85vh;
+  top: 249vh;
+  transition: box-shadow 1s ease-in-out;
+}
+#but button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#arrow1{
+  height: 5vh;
+  width: 10vh;
+  font-size: 15vh;
+  color: aliceblue;
+  margin-top: -3vh;
+  transition: transform 0.8s ease-in-out;
+} 
+#arrow1:hover{
+  transform: translateX(-10px);
+ 
+}
+#arrow2{
+  height: 5vh;
+  width: 10vh;
+  font-size: 10vh;
+  color: aliceblue;
+  transition: transform 1s ease-in-out;
+  position: absolute;
+  left: 165vh;
+  bottom: -140vh;
+}
+#arrow2:hover{
+  transform: translateX(10px);
+ 
+}
+
 
 
 
