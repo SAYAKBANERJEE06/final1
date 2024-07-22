@@ -30,6 +30,7 @@
     background-color: rgba(2, 61, 93, 0.668);
     position: fixed;
     display: flex;
+    z-index: 4;
   }
   #logo{
     height: 5vh;
@@ -383,6 +384,223 @@ body::-webkit-scrollbar{
   transform: translateX(10px);
  
 }
+#main5{
+  height: 100vh;
+    width: 100vw;
+  }
+  #pic1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(photos/tqnkHf.jpg);
+    background-image: cover;
+    background-position: center;
+  }
+  #feedback h1{
+    height: auto;
+  width: 98.7vw;
+ font-size: 24vh;
+ font-weight: bolder;
+ letter-spacing: 9vh;
+ margin-left: 3vh;
+ background-image:linear-gradient(-180deg,#079bfd,#079bfd00); 
+  -webkit-background-clip: text;
+ color: transparent;
+  }
+  #customers{
+    font-size: 6vh;
+    font-weight: bolder;
+    color: aliceblue;
+   position: relative;
+   left: 72vh;
+   bottom: 22vh;
+   height: 12vh;
+   width: 14vh;
+  }
+  #jelly{
+    height: 25vh;
+    width: 35vh;
+    margin-top: -47vh;
+    margin-bottom: 20vh;
+   
+  }
+  #kd{
+    height: 50vh;
+    width: 184vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .vk{
+    height: 30vh;
+    width: 53vh;
+    background-color:#029aff;
+  }
+  .round1 img{ 
+    height: 10vh;
+    width: 12vh;
+    border-radius: 50%;
+    margin-left: 4vh;
+    margin-top: 2vh;
+  }
+  .kl{
+    height: 12vh;
+    width: 53vh;
+    display: flex;
+  }
+  .name11{
+    height: 12vh;
+    width: 22vh;
+  }
+  .name11 p{
+    margin-left: 2vh;
+    margin-top: 1vh;
+    font-weight: bolder;
+    color: aliceblue;
+  }
+  .social11{
+    height: 8vh;
+    width: 16vh;
+    margin-top: 2vh;
+    display: flex;
+  }
+  .social11 i{
+  margin-left: 2vh;
+  font-size: 2.5vh;
+  }
+  #fb i{
+    color: skyblue;
+  }
+  #insta i{
+    color: plum;
+  }
+  .part1 p{
+    height: 18vh;
+    width: 53vh;
+    color: aliceblue;
+  }
+  #dots{
+    height: 7vh;
+    width: 36vh;
+    margin-top: 16vh;
+    margin-left: -50vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+  }
+  .dot{
+    height: 4vh;
+    width: 6vh;
+  }
+  .dat{
+    height: 2vh;
+    width: 2vh;
+    border-radius: 50%;
+    background-color: aliceblue;
+  }
+  #main7{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    padding-bottom: 100vh;
+  }
+  #interact h1{
+    height: auto;
+    width: 98.7vw;
+   font-size: 24vh;
+   font-weight: bolder;
+   letter-spacing: 9vh;
+   margin-left: 3vh;
+   background-image:linear-gradient(-180deg,#079bfd,#079bfd00); 
+    -webkit-background-clip: text;
+   color: transparent;
+  }
+#rules{
+  font-size: 8vh;
+    font-weight: bolder;
+    color: aliceblue;
+    position: relative;
+    left: 77vh;
+    bottom: 25vh;
+    height: 10vh;
+    width: 20vh;
+}
+ #max{
+  height: 60vh;
+  width: 100vw;
+  background-color: red;
+  /* position:relative; */
+  margin-top: -22vh;
+  
+}  
+#shark{
+  height: 60vh;
+  width: 100vw;
+  background-image: url(photos/pic95.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} 
+#maxi{
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mox{
+ height: 40vh;
+ width: 30vh;
+}
+.chai{
+  height: 10vh;
+  width: 30vh;
+}
+.chai i{
+  font-size: 7vh;
+  margin-left: 11vh;
+  color: aliceblue;
+}
+.clamp{
+  height: 3vh;
+  width: 30vh;
+}
+.clamp h3{
+  margin-left: 7vh;
+  color: aliceblue;
+  font-weight:bolder;
+}
+.hallo p{
+  color: aliceblue;
+  font-weight: 300;
+  margin-left: 2vh;
+}
+#coa h3{
+  margin-left:9vh;
+}
+#cob h3{
+  margin-left: 4vh;
+}
+#coc h3{
+  margin-left: 8vh;
+}
+#coe h3{
+  margin-left: 10vh;
+}
+#kalu button{
+ height: 5vh;
+ width: 37vh;
+ background-color: #0799fd;
+ margin-top: 5vh;
+ margin-left: 119vh;
+ font-weight: bolder;
+ color: aliceblue;
+ transition: box-shadow 0.9s ease-in-out;
+}
+#kalu button:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
 
 
 
