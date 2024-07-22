@@ -250,6 +250,7 @@ transform:translateY(3px);
  margin-left: 3vh;
  background-image:linear-gradient(-180deg,#079bfd,#079bfd00); 
   -webkit-background-clip: text;
+  background-clip: text;
  color: transparent;
   } 
 #jellyfish{
@@ -404,6 +405,7 @@ body::-webkit-scrollbar{
  margin-left: 3vh;
  background-image:linear-gradient(-180deg,#079bfd,#079bfd00); 
   -webkit-background-clip: text;
+  background-clip: text;
  color: transparent;
   }
   #customers{
@@ -511,6 +513,7 @@ body::-webkit-scrollbar{
    margin-left: 3vh;
    background-image:linear-gradient(-180deg,#079bfd,#079bfd00); 
     -webkit-background-clip: text;
+    background-clip: text;
    color: transparent;
   }
 #rules{
