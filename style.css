@@ -19,7 +19,7 @@ body{
 .gallery{
     width: 100%;
      height: 100%;
-     background-color: rgb(3, 6, 79);
+     background-color: #042A52;
     flex-direction: row;
     align-items: center; 
 
@@ -34,6 +34,11 @@ body{
     font-weight: 700;
   
 }
+.hed>h1{
+  color: white;
+  font-size: 10vh;
+  font-weight: 700;
+}
 .gc{
     display: flex;  
     gap: 2vh;
@@ -45,7 +50,12 @@ body{
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
      
 }
-
+/* ----------------------------------------------------------- */
+.fh{
+  height: 10vh;
+  width: 98.7vw;
+  background-color: #000000;
+}
 
 .wraper .slider{
     display: flex;
@@ -72,7 +82,7 @@ body{
 .container{
     padding: 30px 0px;
     height: 100vh;
-    background-color: rgb(3, 6, 79); 
+    background-color: #042A52; 
 }
 .pricing-card-container{
     height: 90vh;
@@ -249,35 +259,56 @@ ul li i{
 .card p {
     color: #fcfdff;
 }
+#main6{
+  height: 100vh;
+    width: 98.7vw;
+    background-color: #09294d;
+}
+.gl{
+  height: 10vh;
+  width: 98.7vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.gl h1{
+  color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 45vw;
+}
 .grid-wrapper{
-    height: 100vh;
+    height: 90vh;
     width: 98.7vw;
     display: grid;
+
+    
     grid-gap: 1vh;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) ;
-    grid-auto-rows: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) ;
+    grid-auto-rows: 45%;
     grid-auto-flow: dense;
 }
-img{
+.fd > img{
     max-width: 100%;
     height:auto;
     vertical-align: middle;
-    display: grid;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
 
 }
-.grid-wrapper > div{
+.fd{
+ 
+ height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.grid-wrapper > div > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-     display: grid;
-}
+
 #main8{
     height: 150vh;
     width: 98.7vw;
