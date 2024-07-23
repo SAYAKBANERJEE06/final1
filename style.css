@@ -394,3 +394,45 @@ padding-left: 3vw;
 .b2 form button:hover {
     background-color: #0056b3;
 }
+#nap{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.668);
+    position: fixed;
+    display: flex;
+  }
+  #logo{
+    height: 5vh;
+    width: 9vh;
+    margin-left: 5vh;
+    margin-top: 1vh;
+  }
+  #aquarium h3{
+    margin-left: 1vh;
+    margin-top: 4vh;
+    color: aliceblue;
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+ #head{
+  height: 10vh;
+  width: auto;
+  margin-left: 18vh;
+  display: flex;
+  justify-content: space-between;
+ }
+ .hi h3{
+   margin-top: 4vh;
+   color: aliceblue;
+   height: auto;
+   width: auto;
+   margin-left: 6vh;
+ }
+  .ul{
+    height: 2px;
+    width: 0vh;
+    background-color: red;
+    margin-left: 6vh;
+    transition: width 0.3s;
+ }
