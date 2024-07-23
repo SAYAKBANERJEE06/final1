@@ -715,6 +715,7 @@ body::-webkit-scrollbar{
     padding: 30px 0px;
     height: 100vh;
     background-color: #042A52; 
+    width:98.7vw;
 }
 .pricing-card-container{
     height: 90vh;
