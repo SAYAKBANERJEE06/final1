@@ -318,8 +318,16 @@ ul li i{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.naf{
+  height: 10vh;
+    width: 98.7vw;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
 .continer {
-    height: 150vh;
+    height: 140vh;
     width: 98.7vw;
     display: flex;
     justify-content: center;
@@ -467,3 +475,4 @@ padding-left: 3vw;
     margin-left: 6vh;
     transition: width 0.3s;
  }
+ 
